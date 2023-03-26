@@ -1,0 +1,88 @@
+table{
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+    padding:5px;
+}
+.container{
+    display:flex;
+}
+div{
+    width:100%;
+}
+article{
+    width:40%;
+    box-sizing: border-box;
+    margin: 0% 5% 0%;
+    padding:10px;
+}
+canvas{
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 2em;
+    display: block;
+}
+.spacing{
+    width: 20%;
+    background-color: bisque;
+}
+body>header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+body{
+    margin: 0px;
+}
+header>h1,h3{
+    margin: 0px;
+    padding:5px;
+}
+#graph{
+    padding:5%;
+    padding-top: 0px;
+    
+}
+#adv{
+    display: none;
+}
+#graph>p{
+    margin:-3px;
+    font-family: monospace;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+    
+    /* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    min-height: fit-content;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+footer{
+    background-color: rgb(54, 54, 54);
+    padding: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+.freq{
+    border: 1px solid black;
+    padding:5px;
+    margin-top: 10px;
+}
