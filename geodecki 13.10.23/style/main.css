@@ -1,0 +1,42 @@
+.karkurator{
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #464646;
+    padding:2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: "VT323", 'Courier New', Courier, monospace;
+    color: #b8c59e;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.wynik{
+    height: 6rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #c3ceae;
+    color:black
+}
+.cyferki{
+    font-size: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}   
+
+.cyferki>#guzik-equal{
+    grid-column: 1/-1;
+}
+.guzik{
+    display: grid;
+    place-content: center center;
+    background-color: #b8c59e;
+    color:black;
+    margin: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.guzik:hover{
+    background-color: #c3ceae;
+}
